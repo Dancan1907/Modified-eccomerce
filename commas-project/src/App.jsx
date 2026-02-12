@@ -1,19 +1,17 @@
-import { Routes, Route } from 'react-router-dom';
-
-import { HomePage } from './pages/HomePage'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import { HomePage } from "./pages/HomePage";
+import { CheckoutPage } from "./pages/CheckoutPage";
+import "./App.css";
 
 function App() {
   return (
     <Routes>
-      <Route index  element={<HomePage />} />
+      <Route index element={<HomePage />} />
       <Route path="/orders" element={<div>Orders Page</div>} />
-      <Route path="/checkout" element={<div>Checkout Page</div>} />
+      <Route path="/checkout" element={<CheckoutPage />} />
       {/* Add more routes here as needed */}
     </Routes>
-      
-  
-  )
+  );
 }
 
-export default App
+export default App;
