@@ -1,4 +1,3 @@
-import "./Header.css";
 import "./TrackingPage.css";
 
 export function TrackingPage() {
@@ -65,6 +64,7 @@ export function TrackingPage() {
             </div>
           </div>
         </div>
+        <Footer />
       </>
     );
 }

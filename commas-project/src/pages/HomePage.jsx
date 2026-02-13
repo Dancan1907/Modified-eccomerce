@@ -1,11 +1,12 @@
 import { Header } from "../components/Header";
 import "./HomePage.css";
+import { Footer } from "../components/Footer";
 
 export function HomePage() {
   return (
     <>
-          <title>Commas Project</title>
-        <Header />
+      <title>Commas Project</title>
+      <Header />
 
       <div className="home-page">
         <div className="products-grid">
@@ -157,6 +158,7 @@ export function HomePage() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

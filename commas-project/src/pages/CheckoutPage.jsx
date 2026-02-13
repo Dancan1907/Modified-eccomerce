@@ -1,5 +1,6 @@
 import "./checkout-header.css";
 import "./CheckoutPage.css";
+import { Footer } from "../components/Footer";
 
 export function CheckoutPage() {
   return (
@@ -231,6 +232,7 @@ export function CheckoutPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
