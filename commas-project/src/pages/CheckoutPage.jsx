@@ -42,14 +42,14 @@ export function CheckoutPage() {
               <div className="cart-item-details-grid">
                 <img
                   className="product-image"
-                  src="images/products/athletic-cotton-socks-6-pairs.jpg"
+                  src="images/products/Max Vesterppen Helmet.jpg"
                 />
 
                 <div className="cart-item-details">
                   <div className="product-name">
-                    Black and Gray Athletic Cotton Socks - 6 Pairs
+                    Red Bull F1 2024 Helmet
                   </div>
-                  <div className="product-price">$10.90</div>
+                  <div className="product-price">$85.50</div>
                   <div className="product-quantity">
                     <span>
                       Quantity: <span className="quantity-label">2</span>
@@ -123,14 +123,14 @@ export function CheckoutPage() {
               <div className="cart-item-details-grid">
                 <img
                   className="product-image"
-                  src="images/products/intermediate-composite-basketball.jpg"
+                  src="images/products/Mercedes F1 Polo Shirt.jpg"
                 />
 
                 <div className="cart-item-details">
                   <div className="product-name">
-                    Intermediate Size Basketball
+                    Mercedes F1 Polo Shirt
                   </div>
-                  <div className="product-price">$20.95</div>
+                  <div className="product-price">$78.80</div>
                   <div className="product-quantity">
                     <span>
                       Quantity: <span className="quantity-label">1</span>
@@ -202,8 +202,8 @@ export function CheckoutPage() {
             <div className="payment-summary-title">Payment Summary</div>
 
             <div className="payment-summary-row">
-              <div>Items (3):</div>
-              <div className="payment-summary-money">$42.75</div>
+              <div>Items (2):</div>
+              <div className="payment-summary-money">$164.3</div>
             </div>
 
             <div className="payment-summary-row">
@@ -213,17 +213,17 @@ export function CheckoutPage() {
 
             <div className="payment-summary-row subtotal-row">
               <div>Total before tax:</div>
-              <div className="payment-summary-money">$47.74</div>
+              <div className="payment-summary-money">$169.29</div>
             </div>
 
             <div className="payment-summary-row">
               <div>Estimated tax (10%):</div>
-              <div className="payment-summary-money">$4.77</div>
+              <div className="payment-summary-money">$16.93</div>
             </div>
 
             <div className="payment-summary-row total-row">
               <div>Order total:</div>
-              <div className="payment-summary-money">$52.51</div>
+              <div className="payment-summary-money">$152.36</div>
             </div>
 
             <button className="place-order-button button-primary">

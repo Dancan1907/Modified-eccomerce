@@ -6,7 +6,7 @@ export function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Email:dancankalerwa@gmail.com</p>
+          <p>Email:supersimple@gmail.com</p>
           <p>Phone: +254 113683038</p>
           <p>Address: Nairobi, Kenya</p>
         </div>
