@@ -53,6 +53,12 @@
     height: 26px;
   }
 }
+.checkout-home-text {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1px;
+  color: rgb(25, 135, 84);
+}
 
 .checkout-header .checkout-header-middle-section {
   flex: 1;

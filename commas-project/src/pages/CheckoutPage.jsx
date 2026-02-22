@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./checkout-header.css";
 import "./CheckoutPage.css";
 import { Footer } from "../components/Footer";
@@ -9,16 +10,15 @@ export function CheckoutPage() {
       <div className="checkout-header">
         <div className="header-content">
           <div className="checkout-header-left-section">
-            <a href="/">
-              <img className="logo" src="images/logo.png" />
-              <img className="mobile-logo" src="images/mobile-logo.png" />
-            </a>
+            <Link to="/" className="header-link">
+              <span className="checkout-home-text">Home</span>
+            </Link>
           </div>
 
           <div className="checkout-header-middle-section">
             Checkout (
             <a className="return-to-home-link" href="/">
-              3 items
+              2 items
             </a>
             )
           </div>
@@ -46,9 +46,7 @@ export function CheckoutPage() {
                 />
 
                 <div className="cart-item-details">
-                  <div className="product-name">
-                    Red Bull F1 2024 Helmet
-                  </div>
+                  <div className="product-name">Red Bull F1 2024 Helmet</div>
                   <div className="product-price">$85.50</div>
                   <div className="product-quantity">
                     <span>
@@ -127,9 +125,7 @@ export function CheckoutPage() {
                 />
 
                 <div className="cart-item-details">
-                  <div className="product-name">
-                    Mercedes F1 Polo Shirt
-                  </div>
+                  <div className="product-name">Mercedes F1 Polo Shirt</div>
                   <div className="product-price">$78.80</div>
                   <div className="product-quantity">
                     <span>

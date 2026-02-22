@@ -7,8 +7,8 @@ export  function OrdersPage() {
   return (
     <>
       <title>Orders</title>
-     
-          <Header />
+
+      <Header />
 
       <div className="orders-page">
         <div className="page-title">Your Orders</div>
@@ -23,7 +23,7 @@ export  function OrdersPage() {
                 </div>
                 <div className="order-total">
                   <div className="order-header-label">Total:</div>
-                  <div>$35.06</div>
+                  <div>$152.36</div>
                 </div>
               </div>
 
@@ -35,12 +35,12 @@ export  function OrdersPage() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src="images/products/athletic-cotton-socks-6-pairs.jpg" />
+                <img src="images/products/Red Bull F1 Hat.jpg" />
               </div>
 
               <div className="product-details">
                 <div className="product-name">
-                  Black and Gray Athletic Cotton Socks - 6 Pairs
+                  Red Bull F1 2024 Hat
                 </div>
                 <div className="product-delivery-date">
                   Arriving on: August 15
@@ -64,12 +64,12 @@ export  function OrdersPage() {
               </div>
 
               <div className="product-image-container">
-                <img src="images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" />
+                <img src="images/products/Mercedes F1 Polo Shirt.jpg" />
               </div>
 
               <div className="product-details">
                 <div className="product-name">
-                  Adults Plain Cotton T-Shirt - 2 Pack
+                  Mercedes F1 2024 T-shirt (2 pack)
                 </div>
                 <div className="product-delivery-date">
                   Arriving on: August 19
@@ -115,11 +115,11 @@ export  function OrdersPage() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src="images/products/intermediate-composite-basketball.jpg" />
+                <img src="images/products/Max Vesterppen Helmet.jpg" />
               </div>
 
               <div className="product-details">
-                <div className="product-name">Intermediate Size Basketball</div>
+                <div className="product-name">Red Bull F1 2024 Helmet</div>
                 <div className="product-delivery-date">
                   Arriving on: June 17
                 </div>
